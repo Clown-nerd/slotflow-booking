@@ -1,0 +1,26 @@
+# Project TODO
+
+- [x] Define the core booking domain model for services, staff, resources, availability, appointments, payments, and reminders.
+- [x] Establish the SlotFlow visual system: refined type scale, premium neutral palette, accessible contrast, and restrained motion.
+- [x] Build the business dashboard shell with polished navigation, overview, and state-aware summaries.
+- [x] Build service, staff, resource, and availability management interfaces.
+- [x] Build day and week calendar views with staff/resource filters, appointment cards, and conflict indicators.
+- [x] Add database schema, queries, and typed API procedures for business booking operations.
+- [x] Add edit and deactivate controls for existing services, staff members, and resources, plus richer business-hours management.
+- [x] Implement dedicated staff/resource calendar lanes with explicit scheduling-conflict indicators.
+- [x] Expand edit forms to update core service, staff, and resource fields beyond names and activation state.
+- [x] Support multiple availability windows per day and staff/resource-specific availability rules.
+- [x] Extend staff/resource lanes and conflict indicators across the weekly calendar view.
+- [x] Create the public booking journey: service, staff, date, available time, contact details, and confirmation.
+- [x] Calculate availability and prevent staff/resource booking conflicts in server-side appointment creation.
+- [x] Normalize booking dates in the business timezone to prevent off-by-one-day availability errors.
+- [x] Apply staff- and resource-specific availability rules when calculating slots and booking appointments.
+- [x] Add end-to-end coverage for booking dates, available-slot calculation, and conflicting booking rejection.
+- [x] Implement appointment lifecycle states: pending, paid, confirmed, cancelled, and completed.
+- [x] Add an M-Pesa deposit-to-book integration foundation with clear pending, paid, failed, and retry states.
+- [x] Implement a realistic demo M-Pesa payment simulator and auditable simulated SMS/email reminder delivery log without sending money or messages externally.
+- [x] Add automated SMS and email reminder configuration and a scheduled reminder delivery workflow.
+- [x] Provide responsive, accessible loading, empty, validation, and payment-status states across key flows.
+- [x] Write and run Vitest coverage for availability, conflict prevention, state changes, and reminder selection.
+- [x] Verify desktop and mobile layouts, keyboard use, reduced motion, and critical booking dashboard paths.
+- [x] Save a delivery checkpoint and provide concise implementation and integration notes.
